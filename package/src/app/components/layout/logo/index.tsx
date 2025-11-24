@@ -6,7 +6,7 @@ const Logo = (props: { sticky: boolean }) => {
     return (
         <Link href="/">
             <Image
-                src={sticky ? "/images/logo/sticky_logo.svg" : "/images/logo/WhiteLogo.svg"}
+                src={sticky ? "/images/logo/sticky_logo.png" : "/images/logo/WhiteLogo.png"}
                 alt="logo"
                 width={190}
                 height={34}

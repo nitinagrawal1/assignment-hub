@@ -53,12 +53,12 @@ const footerData = {
         {
             icon: "/images/footer/email-arrow.svg",
             link: "info@wrappixel.com",
-            href: "https://www.wrappixel.com/"
+            href: "https://assignment-hub-rosy.vercel.app/"
         },
         {
             icon: "/images/footer/Location.svg",
-            link: "Zwolle Netherlands",
-            href: "https://maps.app.goo.gl/hpDp81fqzGt5y4bC8"
+            link: "Swarn Path, Mansarovar, Jaipur",
+            href: "https://maps.app.goo.gl/YvdgV2Y8jZ9VZpbK7"
         }
     ],
     links: [
@@ -71,11 +71,10 @@ const footerData = {
         { name: "Error 404", href: "/not-found" }
     ],
     socialLinks: [
-        { name: "Facebook", href: "https://www.facebook.com/" },
-        { name: "Instagram", href: "https://www.instagram.com/" },
-        { name: "Twitter", href: "https://x.com/" }
+        { name: "Facebook", href: "https://www.facebook.com/share/17c2LKB1FE/" },
+        { name: "Instagram", href: "https://www.instagram.com/assignment_helper_914?igsh=bTAwbWoxbWExcDZo" },
     ],
-    copyright: "© Studiova copyright 2025"
+    copyright: "© Assignment Hub copyright 2028. All Rights Reserved."
 };
 
 export const GET = async () => {

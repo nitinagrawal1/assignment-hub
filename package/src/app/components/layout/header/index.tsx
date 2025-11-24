@@ -147,8 +147,8 @@ const Header = () => {
                                         )}
                                     </div>
                                     <div>
-                                        <Link href="tel:+1-212-456-7890" className="text-secondary/60 dark:text-white/60 hover:text-secondary dark:hover:text-white">+1-212-456-7890</Link>
-                                        <Link href="mailto:info@wrappixel.com"><h4>info@wrappixel.com</h4></Link>
+                                        <Link href="tel:+91 9079008119" className="text-secondary/60 dark:text-white/60 hover:text-secondary dark:hover:text-white">+91 9079008119</Link>
+                                        <Link href="mailto:mohitkumar9079@gmail.com"><h4>mohitkumar9079@gmail.com</h4></Link>
                                     </div>
                                 </div>
                             }

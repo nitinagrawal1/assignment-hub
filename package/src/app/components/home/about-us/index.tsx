@@ -55,19 +55,19 @@ function Aboutus() {
                             </div>
                             <div className="relative z-10">
                                 <div className="relative border-b border-secondary/12 pb-5">
-                                    <h2 className="dark:text-secondary">99.2%</h2>
+                                    <h2 className="dark:text-secondary">95.2%</h2>
                                     <p className="text-base text-secondary/70">Student satisfaction rate</p>
                                 </div>
                                 <div className="flex items-center gap-2 lg:gap-5 pt-5">
                                     <Image
-                                        src={"/images/home/aboutusIndex/avatar.svg"}
+                                        src={"/images/home/aboutusIndex/avatar.jpg"}
                                         alt="Image"
                                         width={64}
                                         height={64}
                                     />
                                     <div>
                                         <p className="font-medium dark:text-secondary">Aarav Sharma</p>
-                                        <p className="text-base text-secondary/70">University of Auckland</p>
+                                        <p className="text-base text-secondary/70">University of Mumbai</p>
                                     </div>
                                 </div>
                             </div>
@@ -93,7 +93,7 @@ function Aboutus() {
                             </div>
                             <div className="bg-secondary dark:bg-lightgray/10 p-5 2xl:p-7 flex flex-col justify-between gap-8">
                                 <div>
-                                    <h2 className="text-white">5000+</h2>
+                                    <h2 className="text-white">50+</h2>
                                     <p className="text-base text-white/70">Assignments delivered successfully</p>
                                 </div>
                                 <div>
@@ -117,19 +117,19 @@ function Aboutus() {
 
                         <div className="relative overflow-hidden p-5 2xl:p-7 border border-secondary/12 dark:border-white/30 flex flex-col justify-between gap-8 md:gap-0">
                             <div className="relative z-10">
-                                <h2>120+</h2>
+                                <h2>20+</h2>
                                 <p>Expert academic writers</p>
                             </div>
                             <div className="flex flex-col gap-4 relative z-10">
                                 <Image
-                                    src={"/images/logo/logo-black.svg"}
+                                    src={"/images/logo/logo-black.png"}
                                     alt="Logo Image"
                                     height={44}
                                     width={160}
                                     className="dark:hidden"
                                 />
                                 <Image
-                                    src={"/images/logo/WhiteLogo.svg"}
+                                    src={"/images/logo/WhiteLogo.png"}
                                     alt="Logo Image"
                                     height={44}
                                     width={160}

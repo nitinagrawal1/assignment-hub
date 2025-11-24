@@ -80,32 +80,33 @@ const servicesData = {
 const testimonialData = {
     data_1: {
         preTitle: "Hear from Students",
-        title: "My dissertation was perfectly written and submitted before the deadline. Truly reliable service!",
+        title: "My dissertation was completed with excellent clarity and delivered well before the deadline. Truly dependable service.",
         author: "Aarav Sharma",
-        company: "University of Auckland"
+        company: "University of Mumbai"
     },
     data_2: {
         preTitle: "Hear from Students",
-        title: "Got my case study done in just two days with zero plagiarism. Absolutely worth it!",
-        author: "Emily Johnson",
-        company: "University of Toronto"
+        title: "Got my case study completed in just two days with proper formatting and no plagiarism issues at all. Totally worth it.",
+        author: "Saanvi Patel",
+        company: "Delhi University"
     },
     data_3: {
         preTitle: "Hear from Students",
-        title: "Excellent writing quality and quick support team — made my report submission stress-free!",
+        title: "The writing quality was impressive and the support team helped me every step of the way. Made my submission absolutely stress-free.",
         author: "Rahul Mehta",
-        company: "University of Delhi"
-    },
+        company: "Christ University Bengaluru"
+    }
 };
+
 
 
 const teamData = {
     number: '06',
     data: [
         {
-            image: "/images/home/team/team-img-1.png",
-            name: "Martha Finley",
-            position: "Creative Director",
+            image: "/images/home/team/team-img-1.jpg",
+            name: "Vishal Chamoli",
+            position: "CTO & Content Writer",
             socialLinks: [
                 {
                     icon: "/images/socialIcon/twitter.svg",
@@ -122,9 +123,9 @@ const teamData = {
             ]
         },
         {
-            image: "/images/home/team/team-img-2.png",
-            name: "Floyd Miles",
-            position: "Marketing Strategist",
+            image: "/images/home/team/team-img-2.jpg",
+            name: "Mohit Kumar",
+            position: "CEO & Founder",
             socialLinks: [
                 {
                     icon: "/images/socialIcon/twitter.svg",
@@ -141,9 +142,9 @@ const teamData = {
             ]
         },
         {
-            image: "/images/home/team/team-img-3.png",
-            name: "Glenna Snyder",
-            position: "Lead Designer",
+            image: "/images/home/team/team-img-3.jpg",
+            name: "Nitin Agrawal",
+            position: "Content Writer And Business Developer",
             socialLinks: [
                 {
                     icon: "/images/socialIcon/twitter.svg",
@@ -158,26 +159,7 @@ const teamData = {
                     link: "https://linkedin.com"
                 }
             ]
-        },
-        {
-            image: "/images/home/team/team-img-4.png",
-            name: "Albert Flores",
-            position: "UX/UI Developer",
-            socialLinks: [
-                {
-                    icon: "/images/socialIcon/twitter.svg",
-                    link: "https://twitter.com"
-                },
-                {
-                    icon: "/images/socialIcon/Be.svg",
-                    link: "https://www.behance.net/"
-                },
-                {
-                    icon: "/images/socialIcon/linkedin.svg",
-                    link: "https://linkedin.com"
-                }
-            ]
-        },
+        }
     ]
 };
 
