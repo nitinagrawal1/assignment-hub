@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import NotFound from "./components/not-found";
 
 export const metadata: Metadata = {
-    title: "404 Page | Assignment Hub",
+    title: "404 Page | Assignment Solutions",
 };
 
 const ErrorPage = () => {
