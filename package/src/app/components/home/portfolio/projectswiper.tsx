@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import Image from "next/image";
-import Link from "next/link";
 
 type Project = {
     title: string;
@@ -40,8 +39,7 @@ const Projectswiper = () => {
             modules={[Autoplay]}
             className="mySwiper"
         >
-            {projects.map((value,index)=>{
-                
+            {projects.map((value,index)=>{    
                 return(
                     <SwiperSlide key={index}>
                         <div className="relative group flex flex-col gap-3 lg:gap-5">
@@ -55,10 +53,9 @@ const Projectswiper = () => {
                                         style={{ width: "100%", maxWidth: "100%", height: "100%", objectFit: "cover" }}
                                     />
                                 </div>
-                                <Link
-                                    href={`/projects/${value.slug}`}
-                                    className="absolute top-0 left-0 backdrop-blur-xs bg-black/70 w-full h-full hidden group-hover:flex"
-                                >
+
+                                {/* REMOVED LINK - NOW NON CLICKABLE */}
+                                <div className="absolute top-0 left-0 backdrop-blur-xs bg-black/70 w-full h-full hidden group-hover:flex">
                                     <span className="flex justify-center items-center p-5 w-full">
                                         <svg width="65" height="64" viewBox="0 0 65 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <rect x="0.333374" width="64" height="64" rx="32" fill="#C1FF72" />
@@ -71,10 +68,12 @@ const Projectswiper = () => {
                                             />
                                         </svg>
                                     </span>
-                                </Link>
+                                </div>
                             </div>
+
                             <div className="flex flex-col gap-2 lg:gap-4">
                                 <h3>{value.title}</h3>
+
                                 <div className="flex gap-3">
                                     {value.ScopeOfWork.map((tag, idx) => (
                                         <p

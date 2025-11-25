@@ -60,7 +60,7 @@ function Aboutus() {
                                 </div>
                                 <div className="flex items-center gap-2 lg:gap-5 pt-5">
                                     <Image
-                                        src={"/images/home/aboutusIndex/avatar.jpg"}
+                                        src={"/images/testimonial/testimonial_1.jpg"}
                                         alt="Image"
                                         width={64}
                                         height={64}

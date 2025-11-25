@@ -41,7 +41,7 @@ function HeroSection() {
                                 </p>
                             </div>
                             <div className="flex flex-col lg:flex-row items-start lg:items-end gap-4">
-                                <h1 className="large-heading">Assignment Hub</h1>
+                                <h1 className="large-heading">Assignment Solutions</h1>
                                 <div>
                                     <div className="bg-primary rounded-full p-1.5 pl-8">
                                         <Image

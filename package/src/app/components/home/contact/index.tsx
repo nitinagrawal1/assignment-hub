@@ -47,7 +47,7 @@ const Contact = (props: { contactdataNumber: string }) => {
         e.preventDefault();
         setLoader(true);
 
-        fetch("https://formsubmit.co/ajax/niravjoshi87@gmail.com", {
+        fetch("https://formsubmit.co/ajax/assignsolutionscomp@gmail.com", {
             method: "POST",
             headers: { "Content-type": "application/json" },
             // 3. Updated handleSubmit body

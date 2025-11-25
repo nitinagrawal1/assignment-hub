@@ -51,25 +51,25 @@ const servicesData = {
     data: [
         {
             id: 1,
-            image: "/images/home/services/Dissertations & Thesis.avif",
+            image: "/images/home/services/Dissertations & Thesis.webp",
             heading: "Dissertations & Thesis",
             descp: "Expertly crafted dissertations and thesis papers that are well-researched, properly formatted, and plagiarism-free."
         },
         {
             id: 2,
-            image: "/images/home/services/Case Studies & Reports.avif",
+            image: "/images/home/services/Case Studies & Reports.webp",
             heading: "Case Studies & Reports",
             descp: "Detailed, insightful, and properly structured case studies and reports tailored to your academic requirements."
         },
         {
             id: 3,
-            image: "/images/home/services/Presentations & Infographics.avif",
+            image: "/images/home/services/Presentations & Infographics.webp",
             heading: "Presentations & Infographics",
             descp: "Visually appealing PowerPoint presentations and infographics designed to make your academic work stand out."
         },
         {
             id: 4,
-            image: "/images/home/services/Essay & Assignment Writing.avif",
+            image: "/images/home/services/Essay & Assignment Writing.webp",
             heading: "Essay & Assignment Writing",
             descp: "High-quality essays and assignments written by professionals — customized, well-structured, and plagiarism-free."
         },
@@ -104,7 +104,7 @@ const teamData = {
     number: '06',
     data: [
         {
-            image: "/images/home/team/team-img-1.jpg",
+            image: "/images/home/team/team-img-1.png",
             name: "Vishal Chamoli",
             position: "CTO & Content Writer",
             socialLinks: [
@@ -123,28 +123,9 @@ const teamData = {
             ]
         },
         {
-            image: "/images/home/team/team-img-2.jpg",
+            image: "/images/home/team/team-img-2.png",
             name: "Mohit Kumar",
             position: "CEO & Founder",
-            socialLinks: [
-                {
-                    icon: "/images/socialIcon/twitter.svg",
-                    link: "https://twitter.com"
-                },
-                {
-                    icon: "/images/socialIcon/Be.svg",
-                    link: "https://www.behance.net/"
-                },
-                {
-                    icon: "/images/socialIcon/linkedin.svg",
-                    link: "https://linkedin.com"
-                }
-            ]
-        },
-        {
-            image: "/images/home/team/team-img-3.jpg",
-            name: "Nitin Agrawal",
-            position: "Content Writer And Business Developer",
             socialLinks: [
                 {
                     icon: "/images/socialIcon/twitter.svg",

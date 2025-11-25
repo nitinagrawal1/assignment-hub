@@ -47,13 +47,13 @@ const MenuData = [
 
 
 const footerData = {
-    name: "Studiova",
+    name: "Assignment Solutions",
     tagline: "Build something together?",
     info: [
         {
             icon: "/images/footer/email-arrow.svg",
-            link: "info@wrappixel.com",
-            href: "https://assignment-hub-rosy.vercel.app/"
+            link: "assignsolutionscomp@gmail.com",
+            href: "mailto:assignsolutionscomp@gmail.com"
         },
         {
             icon: "/images/footer/Location.svg",
@@ -74,7 +74,7 @@ const footerData = {
         { name: "Facebook", href: "https://www.facebook.com/share/17c2LKB1FE/" },
         { name: "Instagram", href: "https://www.instagram.com/assignment_helper_914?igsh=bTAwbWoxbWExcDZo" },
     ],
-    copyright: "© Assignment Hub copyright 2028. All Rights Reserved."
+    copyright: "© Assignment Solutions copyright 2028. All Rights Reserved."
 };
 
 export const GET = async () => {
