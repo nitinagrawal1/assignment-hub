@@ -47,9 +47,10 @@ body {
     @apply w-full max-w-[105rem] my-0 mx-auto py-0 sm:px-7 px-5;
   }
 
-  .large-heading {
-    @apply text-6xl md:text-7xl 2xl:text-[290px] leading-none;
-  }
+.large-heading {
+  @apply text-4xl md:text-7xl 2xl:text-[290px] leading-none;
+}
+
 
   .blog-heading{
     @apply text-4xl md:text-5xl xl:text-7xl;

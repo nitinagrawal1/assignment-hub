@@ -50,7 +50,7 @@ const [pricingData, setPricingData] = useState<any>(null);
 </div>
 
 
-                            <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-7">
+                            <div className="flex flex-col md:grid md:grid-cols-2 xl:grid-cols-3 gap-7">
                                 {pricingData?.data?.map((value:any, index:any) => {
                                     return (
                                         <div key={index} className="bg-white dark:bg-lightgray/10 p-3 sm:p-5 xl:p-12 flex flex-col gap-10">
@@ -68,7 +68,7 @@ const [pricingData, setPricingData] = useState<any>(null);
                                                 <div>
                                                     <div className="flex items-center gap-3">
                                                         {value.cancelPrice &&
-                                                            <h3 className="text-secondary/40 dark:text-white/40"><del>{value.cancelPrice}</del></h3>
+                                                            <h4 className="text-secondary/40 dark:text-white/40"><del>{value.cancelPrice}</del></h4>
                                                         }
                                                         <h3>{value.planPrice}</h3>
                                                         <span className="text-base text-secondary/70 dark:text-white/70">/month</span>

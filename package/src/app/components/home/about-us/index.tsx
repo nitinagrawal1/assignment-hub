@@ -43,7 +43,7 @@ function Aboutus() {
                         </div>
                     </div>
 
-                    <div className="grid md:grid-cols-3 gap-5 2xl:gap-7">
+                    <div className="md:grid md:grid-cols-3 gap-5 2xl:gap-7">
                         <div className="relative bg-primary p-4 2xl:p-7 flex flex-col justify-between gap-8 md:gap-0">
                             <div className="relative z-10 flex flex-col gap-2 lg:gap-4">
                                 <div>

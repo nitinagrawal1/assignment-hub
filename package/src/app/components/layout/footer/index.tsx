@@ -33,7 +33,10 @@ const Footer = () => {
                                         <div key={index}>
                                             <a href={value.href} className='flex gap-4'>
                                                 <Image src={value.icon} alt="icon" width={24} height={24} />
-                                                <span className='text-white hover:text-primary text-lg'>{value.link}</span>
+                                               <span className="text-white hover:text-primary text-base md:text-lg">
+  {value.link}
+</span>
+
                                             </a>
                                         </div>
                                     )
