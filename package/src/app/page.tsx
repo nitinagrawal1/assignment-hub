@@ -12,9 +12,15 @@ import Pricing from "./components/home/pricing";
 import Faq from "./components/home/faq";
 import Contact from "./components/home/contact";
 
-export const metadata: Metadata = {
-    title: "Assignment Solutions",
+export const metadata = {
+  title: "Assignment Solutions",
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+    manifest: "/site.webmanifest",
+  },
 };
+
 
 export default function Home() {
   return (
