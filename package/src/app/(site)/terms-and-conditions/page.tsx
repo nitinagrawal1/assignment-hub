@@ -9,7 +9,7 @@ export default function Page() {
     return (
         <main>
             <Herobanner
-                bannerimage="/images/privacy-policy/privacy-policy.png"
+                bannerimage="/images/terms-conditions/terms-and-condition.webp"
                 heading="Terms & Conditions"
                 desc="Understand the <span>Rules & Guidelines</span> Before Using Our Services" />
             <TermsAndCondition />

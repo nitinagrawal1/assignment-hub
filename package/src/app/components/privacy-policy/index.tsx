@@ -8,45 +8,158 @@ function PrivacyPolicy() {
             <div className="relative w-full dark:bg-darkblack">
                 <div className="container">
                     <div className='flex flex-col gap-1.5 py-10 md:py-20'>
+
                         <p>
-                            This Privacy Statement explains how personal information about our (potential) customers and other individuals using our services is collected, used, and disclosed by **Getnextjs Template** ("us", "we", "our"). This Privacy Statement describes our privacy practices in relation to the use of our websites, including any customer portals or interactive websites (
-                            <Link href="https://nextjs.org/">https://getnextjstemplates.com/</Link>), our software (Next.js), services, solutions, tools, and related applications, services, and programs, including research and marketing activities, offered by us (the "Services").
+                            This Privacy Policy describes how <strong>Assignment Solutions</strong> (“we”, “our”, or “us”) collects, uses, stores, and protects personal information when you use our website, communicate with us, or request academic assistance services.
                         </p>
 
                         <p>
-                            By signing up for our Services and agreeing to our General Terms and Conditions, you consent to the collection, usage, storage, and disclosure of your information as described in this Privacy Statement.
+                            By accessing our website or using our services, you agree to the practices described in this Privacy Policy.
                         </p>
 
                         <p>
-                            Our Services may contain links to external websites or services. The privacy practices and content of such sites or services will be governed by their respective privacy policies.
-                        </p>
-
-                        <p>
-                            We may update this Privacy Statement periodically. If changes occur, we will notify you by updating the date at the top of the statement and providing additional notifications (such as a statement on our homepage or an email notification). We encourage you to review this Privacy Statement whenever you use our Services to stay informed about how we handle your information.
+                            We are committed to ensuring that your privacy is protected and that your personal data is handled securely and responsibly.
                         </p>
 
                         <div className="my-6">
-                            <h4 className="font-semibold">Personal Information Collection</h4>
+                            <h4 className="font-semibold">1. Information We Collect</h4>
+
                             <p className="mt-6">
-                                While using our Services, we may ask you to provide certain personally identifiable information that can be used to contact or identify you. This may include basic user details (such as your name, email address, telephone number, and profile picture), company information, and any other data you choose to share with us.
+                                We collect personal information that you voluntarily provide when:
                             </p>
 
-                            <p>
-                                We do not collect financial information (such as credit card details or security codes). All payments are handled through a third-party provider. If applicable, please refer to their Privacy Policy: 
-                                <Link href="https://getnextjstemplates.com/">https://getnextjstemplates.com/</Link>.
+                            <ul className="list-disc ml-6 mt-2">
+                                <li>Filling out the contact form</li>
+                                <li>Submitting assignment details</li>
+                                <li>Contacting us through WhatsApp or email</li>
+                                <li>Requesting pricing or project information</li>
+                            </ul>
+
+                            <p className="mt-4">This may include:</p>
+
+                            <ul className="list-disc ml-6 mt-2">
+                                <li>Your full name</li>
+                                <li>Email address</li>
+                                <li>Phone / WhatsApp number</li>
+                                <li>Assignment type and project details</li>
+                                <li>Any files or documents you provide for project completion</li>
+                            </ul>
+                        </div>
+
+                        <div className="my-6">
+                            <h4 className="font-semibold">2. How We Use Your Information</h4>
+
+                            <p className="mt-6">
+                                We use the information you provide strictly for service-related purposes, including:
+                            </p>
+
+                            <ul className="list-disc ml-6 mt-2">
+                                <li>Understanding your assignment or academic requirements</li>
+                                <li>Communicating with you about your project</li>
+                                <li>Delivering completed assignments, reports, or documents</li>
+                                <li>Providing updates, revisions, and customer support</li>
+                                <li>Improving the quality of our services</li>
+                            </ul>
+
+                            <p className="mt-4">
+                                We <strong>do not</strong> sell, share, or distribute your personal information to third parties for marketing or advertising.
                             </p>
                         </div>
 
                         <div className="my-6">
-                            <h4 className="font-semibold">Personal Information You Provide to Us</h4>
+                            <h4 className="font-semibold">3. Document & Data Privacy</h4>
+
                             <p className="mt-6">
-                                When using our Services, you may provide personally identifiable information, such as when creating an account, requesting customer support, or interacting with our platform.
+                                Any documents, files, or academic materials you share with us are treated with complete confidentiality.
                             </p>
+
+                            <ul className="list-disc ml-6 mt-2">
+                                <li>Your documents are used only to complete your requested task.</li>
+                                <li>We never resell, reuse, or redistribute your content.</li>
+                                <li>All completed work is custom-written and plagiarism-free.</li>
+                            </ul>
+                        </div>
+
+                        <div className="my-6">
+                            <h4 className="font-semibold">4. Communications</h4>
+
                             <p className="mt-6">
-                                As noted, we do not collect financial details directly. Payments are processed via third-party providers. Please review their privacy policy for details: 
-                                <Link href="https://getnextjstemplates.com/">https://getnextjstemplates.com/</Link>.
+                                We may contact you through:
+                            </p>
+
+                            <ul className="list-disc ml-6 mt-2">
+                                <li>Email</li>
+                                <li>Phone calls</li>
+                                <li>WhatsApp messages</li>
+                            </ul>
+
+                            <p className="mt-4">
+                                Communication is strictly related to your order, updates, delivery, or support.
                             </p>
                         </div>
+
+                        <div className="my-6">
+                            <h4 className="font-semibold">5. Payments</h4>
+
+                            <p className="mt-6">
+                                We do not store or collect any payment information, such as card numbers or banking details.  
+                                Payments made to us are handled securely through approved third-party platforms (UPI, bank transfer, or wallet apps).
+                            </p>
+                        </div>
+
+                        <div className="my-6">
+                            <h4 className="font-semibold">6. Data Security</h4>
+
+                            <p className="mt-6">
+                                We take reasonable technical and administrative measures to protect your personal data and documents from unauthorized access, misuse, or disclosure.
+                            </p>
+                        </div>
+
+                        <div className="my-6">
+                            <h4 className="font-semibold">7. Your Choices & Rights</h4>
+
+                            <p className="mt-6">
+                                You may request at any time:
+                            </p>
+
+                            <ul className="list-disc ml-6 mt-2">
+                                <li>Deletion of your personal information</li>
+                                <li>Removal of shared documents</li>
+                                <li>Stopping communication from our side</li>
+                            </ul>
+                        </div>
+
+                        <div className="my-6">
+                            <h4 className="font-semibold">8. Third-Party Links</h4>
+
+                            <p className="mt-6">
+                                Our website may contain links to external platforms (WhatsApp, social media, map locations, etc.).  
+                                We are not responsible for their privacy practices.
+                            </p>
+                        </div>
+
+                        <div className="my-6">
+                            <h4 className="font-semibold">9. Updates to This Policy</h4>
+
+                            <p className="mt-6">
+                                We may update this Privacy Policy from time to time. Changes will be reflected on this page with the latest updated date.
+                            </p>
+                        </div>
+
+                        <div className="my-6">
+                            <h4 className="font-semibold">10. Contact Information</h4>
+
+                            <p className="mt-6">
+                                For questions regarding this Privacy Policy or your personal data, contact us at:
+                            </p>
+
+                            <p className="mt-4">
+                                📧 Email: <Link href="mailto:assignsolutionscomp@gmail.com">assignsolutionscomp@gmail.com</Link><br />
+                                📱 WhatsApp: <Link href="https://wa.me/919079008119">+91 9079008119</Link><br />
+                                📍 Location: Swarn Path, Mansarovar, Jaipur
+                            </p>
+                        </div>
+
                     </div>
                 </div>
             </div>
