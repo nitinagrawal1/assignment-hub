@@ -1,14 +1,16 @@
 import { Metadata } from "next";
-import Aboutus from "./components/home/about-us";
-import Contact from "./components/home/contact";
-import Faq from "./components/home/faq";
+
 import HeroSection from "./components/home/hero";
-import Portfolio from "./components/home/portfolio";
-import Pricing from "./components/home/pricing";
-import Services from "./components/home/services";
+
 import StatsFacts from "./components/home/stats-facts";
-import Team from "./components/home/team";
+import Services from "./components/home/services";
+import Aboutus from "./components/home/about-us";
+import Portfolio from "./components/home/portfolio";
 import Testimonial from "./components/home/testimonial";
+import Team from "./components/home/team";
+import Pricing from "./components/home/pricing";
+import Faq from "./components/home/faq";
+import Contact from "./components/home/contact";
 
 export const metadata: Metadata = {
     title: "Assignment Solutions",
@@ -19,14 +21,15 @@ export default function Home() {
     <>
       <HeroSection />
       <StatsFacts/>
-      <Portfolio/>
+      
       <Services/>
       <Aboutus/>
+      <Portfolio/>
       <Testimonial/>
       <Team teamdataNumber="06"/>
       <Pricing/>
       <Faq/>
-      <Contact contactdataNumber="10"/>
+      <Contact contactdataNumber="9"/>
     </>
   );
 }

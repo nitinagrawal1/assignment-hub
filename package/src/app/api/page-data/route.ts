@@ -44,7 +44,7 @@ const statsFactData = {
 
 
 const servicesData = {
-    number: '03',
+    number: '02',
     name: "Services",
     heading: "What We Offer",
     description: "Get your assignments, dissertations, and reports written by professionals with 100% originality and top-notch quality.",
