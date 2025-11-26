@@ -60,7 +60,7 @@ const footerData = {
         { name: "Whatsapp", href: "https://wa.me/919079008119" },
         { name: "Instagram", href: "https://www.instagram.com/assignment_helper_914?igsh=bTAwbWoxbWExcDZo" },
     ],
-    copyright: "© Assignment Solutions copyright 2028. All Rights Reserved."
+    copyright: "© Assignment Solutions copyright 2022-2025. All Rights Reserved."
 };
 
 export const GET = async () => {
