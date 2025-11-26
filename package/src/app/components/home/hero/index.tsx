@@ -9,15 +9,33 @@ function HeroSection() {
             <Parallax speed={-25}>
                 <section className="relative flex items-end text-white bg-black h-full min-h-screen">
                     {/* Background Video */}
-                    <video
-                        className="absolute top-0 left-0 w-full h-full object-cover"
-                        loop
-                        autoPlay
-                        muted
-                        playsInline
-                    >
-                        <source src="/video/banner-video.mp4" type="video/mp4" />
-                    </video>
+{/* Desktop Banner (lg and above) */}
+<Image
+    src="/images/hero/main-banner.webp"
+    alt="Desktop Banner"
+    fill
+    priority
+    className="hidden lg:block absolute top-0 left-0 w-full h-full object-cover"
+/>
+
+{/* Tablet Banner (md → lg) */}
+<Image
+    src="/images/hero/mobile-banner.webp"
+    alt="Tablet Banner"
+    fill
+    priority
+    className="hidden md:block lg:hidden absolute top-0 left-0 w-full h-full object-cover"
+/>
+
+{/* Mobile Banner (below md) */}
+<Image
+    src="/images/hero/mobile-banner.webp"
+    alt="Mobile Banner"
+    fill
+    priority
+    className="block md:hidden absolute top-0 left-0 w-full h-full object-cover"
+/>
+
 
                     {/* Overlay to improve text readability */}
                     <div className="absolute inset-0 bg-black/50"></div>

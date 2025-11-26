@@ -12,7 +12,7 @@ export default function Page() {
     return (
         <main>
             <Herobanner
-                bannerimage="/images/projects/banner/projects-banner.png"
+                bannerimage="/images/projects/banner/projects-banner.webp"
                 heading="Projects"
                 desc="A <span>showcase of creativity</span>, strategy, and results explore the projects that define us." />
             <ProjectList />    

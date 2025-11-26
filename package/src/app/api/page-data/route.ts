@@ -35,7 +35,7 @@ const statsFactData = {
             scoreDescp: "Professional academic writers on our team"
         },
         {
-            number: 5,
+            number: 4,
             numberValue: 'K',
             scoreDescp: "Assignments delivered across multiple countries"
         },
@@ -234,13 +234,13 @@ const aboutusStats = [
         descp: "Delivering high-quality, plagiarism-free assignments and reports to students across all major disciplines."
     },
     {
-        number: 25,
+        number: 20,
         postfix: "K+",
         title: 'Satisfied students globally',
         descp: "Helping learners from India, Canada, New Zealand, the UK, and the USA achieve top academic results."
     },
     {
-        number: 500,
+        number: 300,
         postfix: "+",
         title: 'Projects delivered monthly',
         descp: "From dissertations to infographics — ensuring every submission meets the highest academic standards."

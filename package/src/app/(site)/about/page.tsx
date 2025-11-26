@@ -13,7 +13,7 @@ export default function Page() {
     return (
         <main>
             <Herobanner
-                bannerimage="/images/about-us/banner/aboutus-banner.png"
+                bannerimage="/images/about-us/banner/aboutus-banner.webp"
                 heading="About Us"
                 desc="We help <span>students worldwide</span> excel with top-quality, plagiarism-free assignments crafted by experienced academic writers." 
             />
