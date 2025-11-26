@@ -60,12 +60,12 @@ socialLinks: [
     {
         name: "Whatsapp",
         href: "https://wa.me/919079008119",
-        icon: "/images/socialicon/WhatsApp.svg"
+        icon: "/images/socialIcon/WhatsApp.svg"
     },
     {
         name: "Instagram",
         href: "https://www.instagram.com/assignment_helper_914?igsh=bTAwbWoxbWExcDZo",
-        icon: "/images/socialicon/Instagram_logo.svg"
+        icon: "/images/socialIcon/Instagram_logo.svg"
     },
 ],
 
