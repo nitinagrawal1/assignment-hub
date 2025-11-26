@@ -150,6 +150,21 @@ className={`absolute -top-5 right-0 flex flex-col gap-5
             assignsolutionscomp@gmail.com
         </h4>
     </Link>
+        {/* Insta */}
+    <Link
+        href="https://www.instagram.com/assignment_helper_914/?igsh=bTAwbWoxbWExcDZo#"
+        className="flex items-center gap-2"
+    >
+        <Image
+            src="/images/socialIcon/Instagram_logo.svg"
+            alt="Instagram icon"
+            width={18}
+            height={18}
+        />
+        <h4 className="text-sm xsm:text-base sm:text-lg">
+            Assignment Solutions
+        </h4>
+    </Link>
 </div>
 
                                 </div>
