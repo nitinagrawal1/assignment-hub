@@ -124,7 +124,7 @@ className={`absolute -top-5 right-0 flex flex-col gap-5
                                             +91 9079008119
                                         </Link>
                                         <Link href="mailto:assignsolutionscomp@gmail.com">
-                                            <h4 class="text-sm xsm:text-base sm:text-lg">
+                                            <h4 className="text-sm xsm:text-base sm:text-lg">
     assignsolutionscomp@gmail.com
 </h4>
 
