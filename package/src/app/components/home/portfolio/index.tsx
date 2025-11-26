@@ -1,5 +1,7 @@
 import "swiper/css";
 import Projectswiper from "./projectswiper";
+import Link from "next/link";
+
 
 function Portfolio() {
     return (
@@ -29,7 +31,12 @@ function Portfolio() {
                 </div>
 
                 <div className="px-3.5">
-                    <Projectswiper/>
+                    <Link href="/projects">
+    <div className="cursor-pointer">
+        <Projectswiper />
+    </div>
+</Link>
+
                 </div>
             </div>
         </section>
