@@ -96,9 +96,12 @@ const Header = () => {
                             ) : (
                                 <div
                                     ref={menuRef}
-                                    className={`absolute -top-5 right-0 flex flex-col gap-5 min-w-80 sm:min-w-96 
-                                        bg-white dark:bg-twilliteblack p-6 rounded-3xl shadow-lg transition-all duration-300 ease-in-out z-10
-                                        ${isClosing ? "opacity-0 scale-95" : "opacity-100 scale-100"}`}
+className={`absolute -top-5 right-0 flex flex-col gap-5 
+    w-[90vw] max-w-[380px]
+    bg-white dark:bg-twilliteblack p-6 rounded-3xl shadow-lg 
+    transition-all duration-300 ease-in-out z-10
+    ${isClosing ? "opacity-0 scale-95" : "opacity-100 scale-100"}`}
+
                                 >
                                     <div className="flex items-center justify-between pb-5 border-b border-secondary/15 dark:border-white/15">
                                         <p className="text-secondary dark:text-white">Menu</p>
@@ -121,7 +124,10 @@ const Header = () => {
                                             +91 9079008119
                                         </Link>
                                         <Link href="mailto:assignsolutionscomp@gmail.com">
-                                            <h4>assignsolutionscomp@gmail.com</h4>
+                                            <h4 class="text-sm xsm:text-base sm:text-lg">
+    assignsolutionscomp@gmail.com
+</h4>
+
                                         </Link>
                                     </div>
                                 </div>
