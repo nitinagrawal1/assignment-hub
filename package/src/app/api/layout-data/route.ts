@@ -21,30 +21,17 @@ const MenuData = [
   },
   {
     id: 4,
-    title: "Blog",
-    path: "/blog",
-    newTab: false,
-  },
-  {
-    id: 5,
     title: "Services",
     path: "/#services",
     newTab: false,
   },
   {
-    id: 6,
+    id: 5,
     title: "Contact",
     path: "/contact",
     newTab: false,
-  },
-  {
-    id: 7,
-    title: "Docs",
-    path: "/documentation",
-    newTab: false,
   }
 ];
-
 
 const footerData = {
     name: "Assignment Solutions",
@@ -68,10 +55,9 @@ const footerData = {
         { name: "Work", href: "/projects" },
         { name: "Terms", href: "/terms-and-conditions" },
         { name: "Privacy Policy", href: "/privacy-policy" },
-        { name: "Error 404", href: "/not-found" }
     ],
     socialLinks: [
-        { name: "Facebook", href: "https://www.facebook.com/share/17c2LKB1FE/" },
+        { name: "Whatsapp", href: "https://wa.me/919079008119" },
         { name: "Instagram", href: "https://www.instagram.com/assignment_helper_914?igsh=bTAwbWoxbWExcDZo" },
     ],
     copyright: "© Assignment Solutions copyright 2028. All Rights Reserved."
