@@ -164,7 +164,7 @@ const pricingData = {
             cancelPrice: "₹3,000",
             planDescp: "Best for students needing detailed reports, essays, or project work with complete research.",
             planIncludes: [
-                "Up to 3,000 words of well-researched content",
+                "Up to 3,000 words or more of well-researched content",
                 "Free plagiarism & grammar check",
                 "Up to 3 revisions included",
                 "Delivery within 3–5 days"
@@ -175,7 +175,7 @@ const pricingData = {
             planPrice: "₹4,000",
             planDescp: "Ideal for dissertations, thesis, or complex academic projects with professional formatting.",
             planIncludes: [
-                "Up to 7,000 words of premium academic writing",
+                "Up to 7,000 words or more of premium academic writing",
                 "Zero plagiarism guaranteed",
                 "Unlimited revisions until approval",
                 "Priority support and express delivery"
