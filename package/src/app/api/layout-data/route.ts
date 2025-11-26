@@ -56,10 +56,19 @@ const footerData = {
         { name: "Terms & Conditions", href: "/terms-and-conditions" },
         { name: "Privacy Policy", href: "/privacy-policy" },
     ],
-    socialLinks: [
-        { name: "Whatsapp", href: "https://wa.me/919079008119" },
-        { name: "Instagram", href: "https://www.instagram.com/assignment_helper_914?igsh=bTAwbWoxbWExcDZo" },
-    ],
+socialLinks: [
+    {
+        name: "Whatsapp",
+        href: "https://wa.me/919079008119",
+        icon: "/images/socialicon/WhatsApp.svg"
+    },
+    {
+        name: "Instagram",
+        href: "https://www.instagram.com/assignment_helper_914?igsh=bTAwbWoxbWExcDZo",
+        icon: "/images/socialicon/Instagram_logo.svg"
+    },
+],
+
     copyright: "© Assignment Solutions copyright 2022-2025. All Rights Reserved."
 };
 
