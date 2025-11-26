@@ -119,17 +119,39 @@ className={`absolute -top-5 right-0 flex flex-col gap-5
                                         </ul>
                                     </div>
 
-                                    <div>
-                                        <Link href="tel:+91 9079008119" className="text-secondary/60 dark:text-white/60 hover:text-secondary dark:hover:text-white">
-                                            +91 9079008119
-                                        </Link>
-                                        <Link href="mailto:assignsolutionscomp@gmail.com">
-                                            <h4 className="text-sm xsm:text-base sm:text-lg">
-    assignsolutionscomp@gmail.com
-</h4>
+<div className="flex flex-col gap-2">
+    {/* Phone */}
+    <Link
+        href="tel:+91 9079008119"
+        className="flex items-center gap-2 text-secondary/60 dark:text-white/60 hover:text-secondary dark:hover:text-white"
+    >
+        <Image
+            src="/images/socialIcon/WhatsApp.svg"
+            alt="WhatsApp icon"
+            width={18}
+            height={18}
+            className="inline-block"
+        />
+        +91 9079008119
+    </Link>
 
-                                        </Link>
-                                    </div>
+    {/* Email */}
+    <Link
+        href="mailto:assignsolutionscomp@gmail.com"
+        className="flex items-center gap-2"
+    >
+        <Image
+            src="/images/socialIcon/Gmail_icon.svg"
+            alt="Gmail icon"
+            width={18}
+            height={18}
+        />
+        <h4 className="text-sm xsm:text-base sm:text-lg">
+            assignsolutionscomp@gmail.com
+        </h4>
+    </Link>
+</div>
+
                                 </div>
                             )}
                         </div>

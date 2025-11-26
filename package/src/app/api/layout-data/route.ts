@@ -66,6 +66,10 @@ socialLinks: [
         name: "Instagram",
         href: "https://www.instagram.com/assignment_helper_914?igsh=bTAwbWoxbWExcDZo",
         icon: "/images/socialIcon/Instagram_logo.svg"
+    },    {
+        name: "Gmail",
+        href: "mailto:assignsolutionscomp@gmail.com",
+        icon: "/images/socialIcon/Gmail_icon.svg"
     },
 ],
 

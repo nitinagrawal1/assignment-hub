@@ -6,7 +6,7 @@ import Herobanner from "@/app/components/shared/hero-banner";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "About Us | WriteSmart Solutions",
+    title: "About Us | Assignment Solutions",
 };
 
 export default function Page() {

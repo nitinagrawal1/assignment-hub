@@ -108,38 +108,39 @@ const teamData = {
             name: "Vishal Chamoli",
             position: "CTO & Content Writer",
             socialLinks: [
-                {
-                    icon: "/images/socialIcon/twitter.svg",
-                    link: "https://twitter.com"
-                },
-                {
-                    icon: "/images/socialIcon/Be.svg",
-                    link: "https://www.behance.net/"
-                },
-                {
-                    icon: "/images/socialIcon/linkedin.svg",
-                    link: "https://linkedin.com"
-                }
+    {
+        icon: "/images/socialIcon/WhatsApp.svg",
+        link: "https://wa.me/919079008119"
+    },
+    {
+        icon: "/images/socialIcon/Instagram_logo.svg",
+        link: "https://www.instagram.com/assignment_helper_914/?igsh=bTAwbWoxbWExcDZo"
+    },
+    {
+        icon: "/images/socialIcon/Gmail_icon.svg",
+        link: "mailto:assignsolutionscomp@gmail.com"
+    }
             ]
         },
         {
             image: "/images/home/team/team-img-2.png",
             name: "Mohit Kumar",
             position: "CEO & Founder",
-            socialLinks: [
-                {
-                    icon: "/images/socialIcon/twitter.svg",
-                    link: "https://twitter.com"
-                },
-                {
-                    icon: "/images/socialIcon/Be.svg",
-                    link: "https://www.behance.net/"
-                },
-                {
-                    icon: "/images/socialIcon/linkedin.svg",
-                    link: "https://linkedin.com"
-                }
-            ]
+socialLinks: [
+    {
+        icon: "/images/socialIcon/WhatsApp.svg",
+        link: "https://wa.me/919079008119"
+    },
+    {
+        icon: "/images/socialIcon/Instagram_logo.svg",
+        link: "https://www.instagram.com/assignment_helper_914/?igsh=bTAwbWoxbWExcDZo"
+    },
+    {
+        icon: "/images/socialIcon/Gmail_icon.svg",
+        link: "mailto:assignsolutionscomp@gmail.com"
+    }
+]
+
         }
     ]
 };

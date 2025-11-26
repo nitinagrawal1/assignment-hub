@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { Parallax, ParallaxProvider } from "react-scroll-parallax";
+import Link from "next/link";
 
 function HeroSection() {
     return (
@@ -61,14 +62,21 @@ function HeroSection() {
                             <div className="flex flex-col lg:flex-row items-start lg:items-end gap-4">
                                 <h1 className="large-heading">Assignment Solutions</h1>
                                 <div>
-                                    <div className="bg-primary rounded-full p-1.5 pl-8">
-                                        <Image
-                                            src={"/images/Icon/arrow-icon.svg"}
-                                            alt="icon"
-                                            height={52}
-                                            width={52}
-                                        />
-                                    </div>
+<Link
+    href="https://wa.me/919079008119"
+    target="_blank"
+    className="inline-block"
+>
+    <div className="bg-primary rounded-full p-1.5 pl-8 cursor-pointer">
+        <Image
+            src={"/images/Icon/arrow-icon.svg"}
+            alt="WhatsApp Contact"
+            height={52}
+            width={52}
+        />
+    </div>
+</Link>
+
                                 </div>
                             </div>
                         </div>
