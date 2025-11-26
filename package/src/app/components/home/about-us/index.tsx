@@ -84,7 +84,7 @@ function Aboutus() {
                         <div className="flex flex-col gap-5 2xl:gap-7">
                             <div className="w-full h-full">
                                 <Image
-                                    src={"/images/home/services/Essay & Assignment Writing.avif"}
+                                    src={"/images/home/services/Essay & Assignment Writing.webp"}
                                     alt="Image"
                                     width={340}
                                     height={215}
@@ -93,7 +93,7 @@ function Aboutus() {
                             </div>
                             <div className="bg-secondary dark:bg-lightgray/10 p-5 2xl:p-7 flex flex-col justify-between gap-8">
                                 <div>
-                                    <h2 className="text-white">50+</h2>
+                                    <h2 className="text-white">4000+</h2>
                                     <p className="text-base text-white/70">Assignments delivered successfully</p>
                                 </div>
                                 <div>
