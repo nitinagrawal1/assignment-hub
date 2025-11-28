@@ -169,46 +169,47 @@ const teamData = {
 };
 
 const pricingData = {
-  data: [
-    {
-      planName: "Basic",
-      planPrice: "₹1,000",
-      planDescp:
-        "Perfect for short assignments, case studies, or small reports with quick turnaround.",
-      planIncludes: [
-        "Up to 1,000 words of original content",
-        "Free plagiarism report",
-        "2 minor revisions included",
-        "Delivery within 2–3 days",
-      ],
-    },
-    {
-      planName: "Standard",
-      tag: "Most popular",
-      planPrice: "₹2,000",
-      cancelPrice: "₹3,000",
-      planDescp:
-        "Best for students needing detailed reports, essays, or project work with complete research.",
-      planIncludes: [
-        "Up to 3,000 words or more of well-researched content",
-        "Free plagiarism & grammar check",
-        "Up to 3 revisions included",
-        "Delivery within 3–5 days",
-      ],
-    },
-    {
-      planName: "Premium",
-      planPrice: "₹4,000",
-      planDescp:
-        "Ideal for dissertations, thesis, or complex academic projects with professional formatting.",
-      planIncludes: [
-        "Up to 7,000 words or more of premium academic writing",
-        "Zero plagiarism guaranteed",
-        "Unlimited revisions until approval",
-        "Priority support and express delivery",
-      ],
-    },
-  ],
+data: [
+  {
+    planName: "Basic",
+    planPrice: "₹499",
+    planDescp:
+      "Perfect for short tasks, basic assignments, Q&A, or small reports with quick turnaround.",
+    planIncludes: [
+      "Up to 1,000 words of clean academic content",
+      "Free basic plagiarism check",
+      "1 minor revision included",
+      "Delivery within 12–48 hours",
+    ],
+  },
+  {
+    planName: "Standard",
+    tag: "Most popular",
+    planPrice: "₹1,499",
+    cancelPrice: "₹1,999",
+    planDescp:
+      "Best for essays, case studies, subject assignments, and well-researched reports.",
+    planIncludes: [
+      "Up to 1,500–2,000 words of well-researched content",
+      "Free plagiarism & grammar check",
+      "Up to 2 revisions included",
+      "Delivery within 2–4 days",
+    ],
+  },
+  {
+    planName: "Premium",
+    planPrice: "₹2,499",
+    planDescp:
+      "Ideal for final-year projects, research papers, and deeply researched academic work.",
+    planIncludes: [
+      "Up to 2,500–3,500 words of premium academic writing",
+      "Zero plagiarism guaranteed",
+      "Unlimited revisions until approval",
+      "Priority support & professional formatting",
+    ],
+  },
+],
+
   partnerLogo: [
     {
       light: "/images/home/pricing/partner-1.svg",

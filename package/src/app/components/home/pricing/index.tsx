@@ -71,7 +71,7 @@ const [pricingData, setPricingData] = useState<any>(null);
                                                             <h4 className="text-secondary/40 dark:text-white/40"><del>{value.cancelPrice}</del></h4>
                                                         }
                                                         <h3>{value.planPrice}</h3>
-                                                        <span className="text-base text-secondary/70 dark:text-white/70">/month</span>
+                                                        <span className="text-base text-secondary/70 dark:text-white/70">/assignment</span>
                                                     </div>
                                                 </div>
                                                 <p className="text-base text-secondary/70 dark:text-white/70">{value.planDescp}</p>
